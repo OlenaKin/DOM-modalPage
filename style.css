@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: relative;
+}
+
+.myWindow {
+    
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45, 27, 27, 0.5);
+    text-align: center;
+    padding-top: 100px;
+    z-index: 500;
+    }  
+
+    .openBtn{
+        margin: 0;
+        position: absolute;
+        z-index: 1000;
+    }
+
+.openBtn:hover,
+.openBtn:focus {
+    background-color: #888;
+    text-decoration: none;
+    cursor: pointer;
+}
+
